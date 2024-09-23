@@ -56,7 +56,7 @@ fun ShoppingListApp() {
             OutlinedTextField(
                 value = name,
                 onValueChange = { name = it },
-                label = { Text("Item Name") },
+                label = { Text("Name") },
                 modifier = Modifier.fillMaxWidth()
             )
 
@@ -80,7 +80,7 @@ fun ShoppingListApp() {
                 },
                 modifier = Modifier.padding(top = 8.dp)
             ) {
-                Text("Add Item")
+                Text("Add")
             }
 
             LazyColumn(
